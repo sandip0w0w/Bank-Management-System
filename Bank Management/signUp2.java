@@ -78,7 +78,7 @@ public class signUp2  extends JFrame implements ActionListener{
          income.setFont(new Font("Ostward",Font.BOLD,20));
          add(income);
 
-         String income_opt[]= {"Business","Salary","Remittance","Students"};
+         String income_opt[]= {"Business","Salary","Remittance","Student"};
          incomeBox=new JComboBox(income_opt);
          incomeBox.setBounds(270,230,400,30);
          add(incomeBox);
